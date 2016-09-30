@@ -18,10 +18,11 @@ import java.util.ArrayList;
  *
  * @author admin
  */
-public class Serializar implements Serializable {
+public class Serializar{
 
     /**
      * @param args the command line arguments
+     * @throws java.lang.ClassNotFoundException
      */
     public static void main(String[] args) throws ClassNotFoundException {
         

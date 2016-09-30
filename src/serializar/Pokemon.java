@@ -8,7 +8,7 @@ package serializar;
 import java.io.Serializable;
 
 /**
- *
+ * Implements Serializable in order to serialize objects of this type
  * @author admin
  */
 public class Pokemon implements Serializable{
@@ -47,6 +47,7 @@ public class Pokemon implements Serializable{
         this.Type = Type;
     }
     
+    @Override
     public String toString()
    {
     return "Pokemon ID: "+Id+"\nPokemon Name: "+Name+"\nPokemon Type: "+Type;
